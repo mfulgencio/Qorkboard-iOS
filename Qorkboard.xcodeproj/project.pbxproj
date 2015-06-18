@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2B42B41B336C62005631D0 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B42B31B336C62005631D0 /* Keys.plist */; };
+		8B2B42B61B336FDB005631D0 /* ic_launcher 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B42B51B336FDB005631D0 /* ic_launcher 58.png */; };
+		8B2B42B81B336FE8005631D0 /* ic_launcher 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B42B71B336FE8005631D0 /* ic_launcher 80.png */; };
+		8B2B42BA1B336FED005631D0 /* ic_launcher 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B42B91B336FED005631D0 /* ic_launcher 120.png */; };
+		8B2B42BD1B337156005631D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B42BB1B337156005631D0 /* Default-568h@2x.png */; };
+		8B2B42BE1B337156005631D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B42BC1B337156005631D0 /* Default@2x.png */; };
+		8B3ACC651B324EC2008681EE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D65818BA87BF00CCF933 /* Parse.framework */; };
+		E4446E6718C02D31002830D3 /* QBDHomeBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4446E6618C02D31002830D3 /* QBDHomeBoardViewController.m */; };
+		E4581262193BD15900F4890D /* QBDMyBoardFlyerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4581261193BD15900F4890D /* QBDMyBoardFlyerDetailViewController.m */; };
+		E48A2C2918CD2C5B00EC9F7A /* QBDFlyerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48A2C2818CD2C5B00EC9F7A /* QBDFlyerDetailViewController.m */; };
+		E4A064EB18BAD9E000FA0799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A064EA18BAD9E000FA0799 /* Main.storyboard */; };
+		E4D1D62518B949D500CCF933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D62418B949D500CCF933 /* Foundation.framework */; };
+		E4D1D62718B949D500CCF933 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D62618B949D500CCF933 /* CoreGraphics.framework */; };
+		E4D1D62918B949D500CCF933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D62818B949D500CCF933 /* UIKit.framework */; };
+		E4D1D62F18B949D500CCF933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4D1D62D18B949D500CCF933 /* InfoPlist.strings */; };
+		E4D1D63118B949D500CCF933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1D63018B949D500CCF933 /* main.m */; };
+		E4D1D63518B949D500CCF933 /* QBDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1D63418B949D500CCF933 /* QBDAppDelegate.m */; };
+		E4D1D63718B949D500CCF933 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D1D63618B949D500CCF933 /* Images.xcassets */; };
+		E4D1D63E18B949D500CCF933 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D63D18B949D500CCF933 /* XCTest.framework */; };
+		E4D1D63F18B949D500CCF933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D62418B949D500CCF933 /* Foundation.framework */; };
+		E4D1D64018B949D500CCF933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D62818B949D500CCF933 /* UIKit.framework */; };
+		E4D1D64818B949D500CCF933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4D1D64618B949D500CCF933 /* InfoPlist.strings */; };
+		E4D1D64A18B949D500CCF933 /* QorkboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1D64918B949D500CCF933 /* QorkboardTests.m */; };
+		E4D1D66318BA88E600CCF933 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D65A18BA88E600CCF933 /* AudioToolbox.framework */; };
+		E4D1D66418BA88E600CCF933 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D65B18BA88E600CCF933 /* CFNetwork.framework */; };
+		E4D1D66518BA88E600CCF933 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D65C18BA88E600CCF933 /* CoreLocation.framework */; };
+		E4D1D66618BA88E600CCF933 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D65D18BA88E600CCF933 /* libz.dylib */; };
+		E4D1D66718BA88E600CCF933 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D65E18BA88E600CCF933 /* MobileCoreServices.framework */; };
+		E4D1D66818BA88E600CCF933 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D65F18BA88E600CCF933 /* QuartzCore.framework */; };
+		E4D1D66918BA88E600CCF933 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D66018BA88E600CCF933 /* Security.framework */; };
+		E4D1D66A18BA88E600CCF933 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D66118BA88E600CCF933 /* StoreKit.framework */; };
+		E4D1D66B18BA88E600CCF933 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D1D66218BA88E600CCF933 /* SystemConfiguration.framework */; };
+		E4D1D67718BA99A300CCF933 /* QBDMyBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1D67618BA99A300CCF933 /* QBDMyBoardViewController.m */; };
+		E4DACBB91943A7FE009416E0 /* QBDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DACBB81943A7FE009416E0 /* QBDTabBarController.m */; };
+		E4DACBBC19440B06009416E0 /* QBDMenuDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DACBBB19440B06009416E0 /* QBDMenuDrawerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4D1D64118B949D500CCF933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4D1D61918B949D500CCF933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4D1D62018B949D500CCF933;
+			remoteInfo = Qorkboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B2B42B31B336C62005631D0 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		8B2B42B51B336FDB005631D0 /* ic_launcher 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher 58.png"; path = "Qorkboard/Images.xcassets/AppIcon.appiconset/ic_launcher 58.png"; sourceTree = "<group>"; };
+		8B2B42B71B336FE8005631D0 /* ic_launcher 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher 80.png"; path = "Qorkboard/Images.xcassets/AppIcon.appiconset/ic_launcher 80.png"; sourceTree = "<group>"; };
+		8B2B42B91B336FED005631D0 /* ic_launcher 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_launcher 120.png"; path = "Qorkboard/Images.xcassets/AppIcon.appiconset/ic_launcher 120.png"; sourceTree = "<group>"; };
+		8B2B42BB1B337156005631D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8B2B42BC1B337156005631D0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E4446E6518C02D31002830D3 /* QBDHomeBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBDHomeBoardViewController.h; path = ../QBDHomeBoardViewController.h; sourceTree = "<group>"; };
+		E4446E6618C02D31002830D3 /* QBDHomeBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBDHomeBoardViewController.m; path = ../QBDHomeBoardViewController.m; sourceTree = "<group>"; };
+		E4581260193BD13400F4890D /* QBDMyBoardFlyerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDMyBoardFlyerDetailViewController.h; sourceTree = "<group>"; };
+		E4581261193BD15900F4890D /* QBDMyBoardFlyerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDMyBoardFlyerDetailViewController.m; sourceTree = "<group>"; };
+		E48A2C2718CD2C5B00EC9F7A /* QBDFlyerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFlyerDetailViewController.h; sourceTree = "<group>"; };
+		E48A2C2818CD2C5B00EC9F7A /* QBDFlyerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFlyerDetailViewController.m; sourceTree = "<group>"; };
+		E4A064EA18BAD9E000FA0799 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		E4D1D62118B949D500CCF933 /* Qorkboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qorkboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D1D62418B949D500CCF933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4D1D62618B949D500CCF933 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4D1D62818B949D500CCF933 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4D1D62C18B949D500CCF933 /* Qorkboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Qorkboard-Info.plist"; sourceTree = "<group>"; };
+		E4D1D62E18B949D500CCF933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4D1D63018B949D500CCF933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4D1D63218B949D500CCF933 /* Qorkboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Qorkboard-Prefix.pch"; sourceTree = "<group>"; };
+		E4D1D63318B949D500CCF933 /* QBDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QBDAppDelegate.h; sourceTree = "<group>"; };
+		E4D1D63418B949D500CCF933 /* QBDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QBDAppDelegate.m; sourceTree = "<group>"; };
+		E4D1D63618B949D500CCF933 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E4D1D63C18B949D500CCF933 /* QorkboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QorkboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D1D63D18B949D500CCF933 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E4D1D64518B949D500CCF933 /* QorkboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QorkboardTests-Info.plist"; sourceTree = "<group>"; };
+		E4D1D64718B949D500CCF933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4D1D64918B949D500CCF933 /* QorkboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QorkboardTests.m; sourceTree = "<group>"; };
+		E4D1D65818BA87BF00CCF933 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		E4D1D65A18BA88E600CCF933 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E4D1D65B18BA88E600CCF933 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E4D1D65C18BA88E600CCF933 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E4D1D65D18BA88E600CCF933 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E4D1D65E18BA88E600CCF933 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E4D1D65F18BA88E600CCF933 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E4D1D66018BA88E600CCF933 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E4D1D66118BA88E600CCF933 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E4D1D66218BA88E600CCF933 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E4D1D67518BA99A300CCF933 /* QBDMyBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDMyBoardViewController.h; sourceTree = "<group>"; };
+		E4D1D67618BA99A300CCF933 /* QBDMyBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDMyBoardViewController.m; sourceTree = "<group>"; };
+		E4DACBB71943A7FE009416E0 /* QBDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDTabBarController.h; sourceTree = "<group>"; };
+		E4DACBB81943A7FE009416E0 /* QBDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDTabBarController.m; sourceTree = "<group>"; };
+		E4DACBBA19440B06009416E0 /* QBDMenuDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDMenuDrawerController.h; sourceTree = "<group>"; };
+		E4DACBBB19440B06009416E0 /* QBDMenuDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDMenuDrawerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4D1D61E18B949D500CCF933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3ACC651B324EC2008681EE /* Parse.framework in Frameworks */,
+				E4D1D66318BA88E600CCF933 /* AudioToolbox.framework in Frameworks */,
+				E4D1D66418BA88E600CCF933 /* CFNetwork.framework in Frameworks */,
+				E4D1D66518BA88E600CCF933 /* CoreLocation.framework in Frameworks */,
+				E4D1D66618BA88E600CCF933 /* libz.dylib in Frameworks */,
+				E4D1D66718BA88E600CCF933 /* MobileCoreServices.framework in Frameworks */,
+				E4D1D66818BA88E600CCF933 /* QuartzCore.framework in Frameworks */,
+				E4D1D66918BA88E600CCF933 /* Security.framework in Frameworks */,
+				E4D1D66A18BA88E600CCF933 /* StoreKit.framework in Frameworks */,
+				E4D1D66B18BA88E600CCF933 /* SystemConfiguration.framework in Frameworks */,
+				E4D1D62718B949D500CCF933 /* CoreGraphics.framework in Frameworks */,
+				E4D1D62918B949D500CCF933 /* UIKit.framework in Frameworks */,
+				E4D1D62518B949D500CCF933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D1D63918B949D500CCF933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D1D63E18B949D500CCF933 /* XCTest.framework in Frameworks */,
+				E4D1D64018B949D500CCF933 /* UIKit.framework in Frameworks */,
+				E4D1D63F18B949D500CCF933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4D1D61818B949D500CCF933 = {
+			isa = PBXGroup;
+			children = (
+				8B2B42BB1B337156005631D0 /* Default-568h@2x.png */,
+				8B2B42BC1B337156005631D0 /* Default@2x.png */,
+				8B2B42B51B336FDB005631D0 /* ic_launcher 58.png */,
+				8B2B42B71B336FE8005631D0 /* ic_launcher 80.png */,
+				8B2B42B91B336FED005631D0 /* ic_launcher 120.png */,
+				E4D1D62A18B949D500CCF933 /* Qorkboard */,
+				E4D1D64318B949D500CCF933 /* QorkboardTests */,
+				E4D1D62318B949D500CCF933 /* Frameworks */,
+				E4D1D62218B949D500CCF933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4D1D62218B949D500CCF933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1D62118B949D500CCF933 /* Qorkboard.app */,
+				E4D1D63C18B949D500CCF933 /* QorkboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4D1D62318B949D500CCF933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1D65A18BA88E600CCF933 /* AudioToolbox.framework */,
+				E4D1D65B18BA88E600CCF933 /* CFNetwork.framework */,
+				E4D1D65C18BA88E600CCF933 /* CoreLocation.framework */,
+				E4D1D65D18BA88E600CCF933 /* libz.dylib */,
+				E4D1D65E18BA88E600CCF933 /* MobileCoreServices.framework */,
+				E4D1D65F18BA88E600CCF933 /* QuartzCore.framework */,
+				E4D1D66018BA88E600CCF933 /* Security.framework */,
+				E4D1D66118BA88E600CCF933 /* StoreKit.framework */,
+				E4D1D66218BA88E600CCF933 /* SystemConfiguration.framework */,
+				E4D1D65818BA87BF00CCF933 /* Parse.framework */,
+				E4D1D62418B949D500CCF933 /* Foundation.framework */,
+				E4D1D62618B949D500CCF933 /* CoreGraphics.framework */,
+				E4D1D62818B949D500CCF933 /* UIKit.framework */,
+				E4D1D63D18B949D500CCF933 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4D1D62A18B949D500CCF933 /* Qorkboard */ = {
+			isa = PBXGroup;
+			children = (
+				E4A064EA18BAD9E000FA0799 /* Main.storyboard */,
+				E4D1D63318B949D500CCF933 /* QBDAppDelegate.h */,
+				E4D1D63418B949D500CCF933 /* QBDAppDelegate.m */,
+				E4DACBB71943A7FE009416E0 /* QBDTabBarController.h */,
+				E4DACBB81943A7FE009416E0 /* QBDTabBarController.m */,
+				E4DACBBA19440B06009416E0 /* QBDMenuDrawerController.h */,
+				E4DACBBB19440B06009416E0 /* QBDMenuDrawerController.m */,
+				E4446E6518C02D31002830D3 /* QBDHomeBoardViewController.h */,
+				E4446E6618C02D31002830D3 /* QBDHomeBoardViewController.m */,
+				E48A2C2718CD2C5B00EC9F7A /* QBDFlyerDetailViewController.h */,
+				E48A2C2818CD2C5B00EC9F7A /* QBDFlyerDetailViewController.m */,
+				E4D1D67518BA99A300CCF933 /* QBDMyBoardViewController.h */,
+				E4D1D67618BA99A300CCF933 /* QBDMyBoardViewController.m */,
+				E4581260193BD13400F4890D /* QBDMyBoardFlyerDetailViewController.h */,
+				E4581261193BD15900F4890D /* QBDMyBoardFlyerDetailViewController.m */,
+				E4D1D63618B949D500CCF933 /* Images.xcassets */,
+				E4D1D62B18B949D500CCF933 /* Supporting Files */,
+				8B2B42B31B336C62005631D0 /* Keys.plist */,
+			);
+			path = Qorkboard;
+			sourceTree = "<group>";
+		};
+		E4D1D62B18B949D500CCF933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1D62C18B949D500CCF933 /* Qorkboard-Info.plist */,
+				E4D1D62D18B949D500CCF933 /* InfoPlist.strings */,
+				E4D1D63018B949D500CCF933 /* main.m */,
+				E4D1D63218B949D500CCF933 /* Qorkboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4D1D64318B949D500CCF933 /* QorkboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1D64918B949D500CCF933 /* QorkboardTests.m */,
+				E4D1D64418B949D500CCF933 /* Supporting Files */,
+			);
+			path = QorkboardTests;
+			sourceTree = "<group>";
+		};
+		E4D1D64418B949D500CCF933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1D64518B949D500CCF933 /* QorkboardTests-Info.plist */,
+				E4D1D64618B949D500CCF933 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4D1D62018B949D500CCF933 /* Qorkboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D1D64D18B949D500CCF933 /* Build configuration list for PBXNativeTarget "Qorkboard" */;
+			buildPhases = (
+				E4D1D61D18B949D500CCF933 /* Sources */,
+				E4D1D61E18B949D500CCF933 /* Frameworks */,
+				E4D1D61F18B949D500CCF933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qorkboard;
+			productName = Qorkboard;
+			productReference = E4D1D62118B949D500CCF933 /* Qorkboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4D1D63B18B949D500CCF933 /* QorkboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4D1D65018B949D500CCF933 /* Build configuration list for PBXNativeTarget "QorkboardTests" */;
+			buildPhases = (
+				E4D1D63818B949D500CCF933 /* Sources */,
+				E4D1D63918B949D500CCF933 /* Frameworks */,
+				E4D1D63A18B949D500CCF933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4D1D64218B949D500CCF933 /* PBXTargetDependency */,
+			);
+			name = QorkboardTests;
+			productName = QorkboardTests;
+			productReference = E4D1D63C18B949D500CCF933 /* QorkboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4D1D61918B949D500CCF933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QBD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Qorkboard;
+				TargetAttributes = {
+					E4D1D63B18B949D500CCF933 = {
+						TestTargetID = E4D1D62018B949D500CCF933;
+					};
+				};
+			};
+			buildConfigurationList = E4D1D61C18B949D500CCF933 /* Build configuration list for PBXProject "Qorkboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4D1D61818B949D500CCF933;
+			productRefGroup = E4D1D62218B949D500CCF933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4D1D62018B949D500CCF933 /* Qorkboard */,
+				E4D1D63B18B949D500CCF933 /* QorkboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4D1D61F18B949D500CCF933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2B42B41B336C62005631D0 /* Keys.plist in Resources */,
+				8B2B42B81B336FE8005631D0 /* ic_launcher 80.png in Resources */,
+				8B2B42B61B336FDB005631D0 /* ic_launcher 58.png in Resources */,
+				8B2B42BE1B337156005631D0 /* Default@2x.png in Resources */,
+				E4A064EB18BAD9E000FA0799 /* Main.storyboard in Resources */,
+				8B2B42BA1B336FED005631D0 /* ic_launcher 120.png in Resources */,
+				8B2B42BD1B337156005631D0 /* Default-568h@2x.png in Resources */,
+				E4D1D62F18B949D500CCF933 /* InfoPlist.strings in Resources */,
+				E4D1D63718B949D500CCF933 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D1D63A18B949D500CCF933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D1D64818B949D500CCF933 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4D1D61D18B949D500CCF933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4446E6718C02D31002830D3 /* QBDHomeBoardViewController.m in Sources */,
+				E4DACBBC19440B06009416E0 /* QBDMenuDrawerController.m in Sources */,
+				E4D1D63518B949D500CCF933 /* QBDAppDelegate.m in Sources */,
+				E4DACBB91943A7FE009416E0 /* QBDTabBarController.m in Sources */,
+				E4581262193BD15900F4890D /* QBDMyBoardFlyerDetailViewController.m in Sources */,
+				E48A2C2918CD2C5B00EC9F7A /* QBDFlyerDetailViewController.m in Sources */,
+				E4D1D67718BA99A300CCF933 /* QBDMyBoardViewController.m in Sources */,
+				E4D1D63118B949D500CCF933 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D1D63818B949D500CCF933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D1D64A18B949D500CCF933 /* QorkboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4D1D64218B949D500CCF933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4D1D62018B949D500CCF933 /* Qorkboard */;
+			targetProxy = E4D1D64118B949D500CCF933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4D1D62D18B949D500CCF933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4D1D62E18B949D500CCF933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4D1D64618B949D500CCF933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4D1D64718B949D500CCF933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4D1D64B18B949D500CCF933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4D1D64C18B949D500CCF933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4D1D64E18B949D500CCF933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mikefulgencio/Documents/Qorkboard/Qorkboard-iOS",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qorkboard/Qorkboard-Prefix.pch";
+				INFOPLIST_FILE = "Qorkboard/Qorkboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4D1D64F18B949D500CCF933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mikefulgencio/Documents/Qorkboard/Qorkboard-iOS",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qorkboard/Qorkboard-Prefix.pch";
+				INFOPLIST_FILE = "Qorkboard/Qorkboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E4D1D65118B949D500CCF933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Qorkboard.app/Qorkboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qorkboard/Qorkboard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QorkboardTests/QorkboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E4D1D65218B949D500CCF933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Qorkboard.app/Qorkboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qorkboard/Qorkboard-Prefix.pch";
+				INFOPLIST_FILE = "QorkboardTests/QorkboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4D1D61C18B949D500CCF933 /* Build configuration list for PBXProject "Qorkboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D1D64B18B949D500CCF933 /* Debug */,
+				E4D1D64C18B949D500CCF933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D1D64D18B949D500CCF933 /* Build configuration list for PBXNativeTarget "Qorkboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D1D64E18B949D500CCF933 /* Debug */,
+				E4D1D64F18B949D500CCF933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4D1D65018B949D500CCF933 /* Build configuration list for PBXNativeTarget "QorkboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D1D65118B949D500CCF933 /* Debug */,
+				E4D1D65218B949D500CCF933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4D1D61918B949D500CCF933 /* Project object */;
+}
